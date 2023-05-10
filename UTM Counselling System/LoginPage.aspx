@@ -4,12 +4,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
+	<div class="login">
+		<h1>Login</h1>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<input type="submit" value="Login">
+		</form>
+	</div>
 </body>
 </html>
